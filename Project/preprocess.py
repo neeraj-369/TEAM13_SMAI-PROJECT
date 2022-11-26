@@ -46,7 +46,10 @@ Data_NO_hand=Data_hand[:,0:16]
 Data_NO_chest=Data_chest[:,0:16]
 Data_NO_ankle=Data_ankle[:,0:16]
 ###USE THESE
-
+## Time stamp may make sense for a single entity but for generalised it may be better to take it out
+Data_NO_NT_hand=Data_hand[:,1:16]
+Data_NO_NT_chest=Data_chest[:,1:16]
+Data_NO__NT_ankle=Data_ankle[:,1:16]
 
 
 
