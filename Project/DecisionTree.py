@@ -131,19 +131,6 @@ class Boosting:
 #             print("Trees",i,"depth",j,accuracy_score(y_train[test],boosted.predict(X_train[test])))
 
 
-# k=5
-# kfold=KFold(n_splits=5,shuffle=True,random_state=3)
-# accuracies = np.zeros((4))
-# index = 0
-# for i in [50,100,250,500]:
-#         print(time.time())
-#         boosted = AdaBoostClassifier(tree.DecisionTreeClassifier(max_depth=5),n_estimators=i)#(X_train[train],y_train[train],i,j,25)
-#         boosted.fit(X_train,y_train)
-#         print(time.time())
-#         accuracies[index]= accuracy_score(y_test,boosted.predict(X_test))
-#         print("Trees",i,"depth",5,accuracies[index])
-#         index+=1
-# np.save("Accuracies.npy",accuracies)
 # accuracies = np.zeros((4))
 # index = 0
 # for i in [100]:
